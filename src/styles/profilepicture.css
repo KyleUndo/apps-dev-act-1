@@ -1,3 +1,40 @@
 img {
-    width: 250px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.profile-pic-container {
+  color: #333;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  max-width: 1010px;
+  margin: auto;
+  padding: 18px 0px;
+}
+
+.name-profession-container {
+  padding-top: 22px;
+}
+
+.name-profession-container p {
+  margin-top: 4px;
+  color: rgb(129, 132, 132);
+}
+
+.name-profession-container {
+  padding-top: 22px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .profile-pic-container {
+    color: #333;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+    max-width: 1010px;
+    margin: auto;
+    padding: 18px 0px;
+  }
 }

@@ -1,6 +1,8 @@
 function Button() {
     return (
-        <h1>Button</h1>
+        <div className="btn-container">
+            <a href="https://github.com/KyleUndo" target="_blank">View Github</a>
+        </div>
     )
 }
 

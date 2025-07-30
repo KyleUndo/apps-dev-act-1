@@ -1,13 +1,18 @@
+import aboutMe from "../assets/aboutme.png";
+
 function AboutMe() {
   return (
     <div className="about-container">
-      <h1>Hi, I'm Kyle</h1>
+      <div className="icon-container">
+        <img src={aboutMe} alt="sa" />
+        <h2>Hi, I'm Kyle</h2>
+      </div>
       <h3>
-        Student Developer skilled in building clean, efficient software
-        solutions.
+        A 20-year-old Cebu-based student developer from Purok Paglaum, Ibabao,
+        Cordova. I specialize in building clean, efficient software solutions
+        with a focus on innovation and real-world impact in the local tech
+        scene.
       </h3>
-      <p>Age: 20</p>
-      <p>Address: Purok Paglaum, Ibabao, Cordova, Cebu</p>
     </div>
   );
 }

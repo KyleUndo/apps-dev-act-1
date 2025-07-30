@@ -1,9 +1,23 @@
 .header {
-    background-color: rgb(20, 19, 19);
-    color: white;
-    padding: 16px 50px;
+  background-color: rgb(20, 19, 19);
+  color: white;
+  padding: 14px;
+  position: sticky;
+  top: 0;
+  width: auto;
 }
 
 h1 {
-    font-size: 26px;
+  font-size: 26px;
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    background-color: rgb(20, 19, 19);
+    color: white;
+    padding: 16px 50px;
+    position: sticky;
+    top: 0;
+    width: auto;
+  }
 }
