@@ -1,4 +1,3 @@
-import frontendIcon from "../assets/ux.png";
 import backendIcon from "../assets/backend.png";
 
 function Skills() {
