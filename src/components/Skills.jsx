@@ -9,7 +9,7 @@ function Skills() {
       </div>
       <div>
         <div>
-          <h3>Languages</h3>
+          <h3>Frontend</h3>
           <div className="skill-bento">
             <p>HTML</p>
             <p>CSS</p>
@@ -18,6 +18,12 @@ function Skills() {
             <p>TypeScript</p>
             <p>TailwindCSS</p>
             <p>DaisyUI</p>
+          </div>
+        </div>
+
+        <div>
+          <h3>Backend</h3>
+          <div className="skill-bento">
             <p>NodeJs</p>
             <p>ExpressJs</p>
             <p>PHP</p>
